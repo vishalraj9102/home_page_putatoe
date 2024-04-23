@@ -1,2 +1,3 @@
 <h3>Output image</h3>
-<img src="C:\Users\Vishal Raj\Pictures\Screenshots\Screenshot 2024-04-23 232145.png" alt="Output Image">
+![Screenshot 2024-04-23 232145](https://github.com/vishalraj9102/home_page_putatoe/assets/131941649/0e22340d-00c5-4e56-ab49-d205fe61f9b4)
+
