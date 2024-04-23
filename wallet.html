@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putatoe : One Solution</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+
+
+</head>
+
+<body>
+  <div class="hero-wrapper">
+    <div class="hero">
+      <div class="wallet">
+        <header>
+          <p><a href="./index.html">
+              <span class="material-icons">
+                west
+              </span>
+            </a> Putatoe Wallet </p>
+        </header>
+        <div class="addmoney">
+          <div class="two one ">
+            <p>100 reward points = 1 putatoe credit</p>
+            <p>1 putatoe credit = 1 rupee</p>
+            <p>Can be redeemed to your bank account on amount above ₹ 10,000</p>
+
+          </div>
+          <div class="two three">
+            <ul>
+              <li><i class="fa-solid fa-indian-rupee-sign"></i>
+                <p>Add</p>
+                <p>Money</p>
+              </li>
+              <li><i class="fa-solid fa-gift"></i>
+                <p>Redeem</p>
+                <p>as Credit</p>
+              </li>
+              <li><i class="fa-solid fa-building-columns"></i>
+                <p>Send money</p>
+                <p>to bank</p>
+              </li>
+            </ul>
+            <div class="extra">
+              <p>Transactions</p>
+              <h2>NO PAST TRANSACTION</h2>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <img src="./Wallet/1x/Asset 5.png" height="500px">
+        </footer>
+
+        <div class="balance-wrapper">
+          <div class="balance">
+            <div class="row">
+              <div class="col left">
+                <p>₹ 0.0</p>
+                <p>Avaialble Balance</p>
+                <p><a href="" class="circle"><span>P</span></a><b>505</b></p>
+                <p> <b>Reward Points</b> </p>
+              </div>
+              <div class="col right">
+                <button id="money" onclick="showit()">Transfer Money</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="display-wrapper" id="display-wrapper">
+        <div class="display-wrapper1">
+          <div class="display" id="display">
+            <h3 style="font-weight: 300; font-size:1.8rem;">Transfer Money<span class="material-icons" id="cross"
+                onclick="closeit()">
+                close
+              </span></h3>
+            <form>
+              <p style="color:rgba(0, 0, 0, 0.484)">Username or Mobile number</p>
+              <div class="input-wrapper"><input type="text" placeholder="Enter username or mobile number"><span
+                  class="material-icons">
+                  contacts
+                </span></div>
+              <p style="color:rgba(0, 0, 0, 0.484)">Amount</p>
+              <div class="input-wrapper"><input type="text" placeholder="Enter Amount"></div>
+            </form>
+            <a class="submit">SUBMIT</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <script>
+
+    function showit() {
+      document.getElementById("display").style.display = "block";
+      document.getElementById("display-wrapper").style.display = "block";
+    }
+
+
+    function closeit() {
+      document.getElementById("display").style.display = "none";
+      document.getElementById("display-wrapper").style.display = "none";
+    }
+
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
